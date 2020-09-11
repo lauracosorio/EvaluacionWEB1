@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Punto1.css">
+    <title>Punto1</title>
+</head>
+<body>
+    <div class="calculadora">
+        <h1 class="title">Calculadora básica</h1>
+    <form action="punto1.php" method="post" name="Calculadora">
+        <div class="grupo">
+            <label for=""> Ingrese el primer número</label>
+        <div>
+            <input type="number" name="numero1" required >
+        </div>
+        </div>
+        <div class="grupo">
+            <label for=""> Ingrese el segundo número</label>
+        <div>
+            <input type="number" name="numero2" required>
+        </div>
+        </div>
+        
+        <select name="option" >
+            <option value="suma">Sumar</option>
+            <option value="resta">Restar</option>
+            <option value="division">Dividir</option>
+            <option value="multiplicacion">Multiplicar</option>
+        </select>
+<br><br>
+        <div>
+            <button>Calcular</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
